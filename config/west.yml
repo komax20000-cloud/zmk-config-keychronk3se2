@@ -5,8 +5,9 @@ manifest:
     - name: keychron
       url-base: https://github.com
   projects:
-    - name: zmk
+    - name: keychron_zmk
       remote: keychron
+      repo: zmk
       revision: zmk
       import: app/west.yml
   self:
